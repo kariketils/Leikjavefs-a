@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
-     height: 100%;
+    background-color: gray;
+         height: 100%;
 }
 header{
     border-radius: 20px;
     border:solid black;
-   background-image: url(..'C:\Users\karik\Documents\GitHub\Leikjavefs-a\leikjavefsíða\skyrim.jpg');
     margin: 50px;
     overflow: hidden;
     max-width: 85%;
@@ -38,11 +38,14 @@ input[type=text]:focus {
 
 }
 .container{
+    border: solid black 4px;
     max-width: 960px;
     width: 96%;
     margin: auto;
 }
-
+.maincontainer{
+    
+}
 
 .logo{
     float: left;
@@ -58,7 +61,11 @@ nav{
     font-family: Impact, sans-serif;
     text-align: center;
     height: 100px;
-    width: cover;
+    width: 75%;
+}
+.mainmenu li{
+    float: left;
+    margin: 0 1em;
 }
 
 .contant h2{
