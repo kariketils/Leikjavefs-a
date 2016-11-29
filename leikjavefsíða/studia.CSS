@@ -35,14 +35,11 @@ input[type=text]:focus {
 
 }
 .container{
-    background: #f3f3f3;
     max-width: 960px;
     width: 96%;
     margin: auto;
 }
-.searchbar{
-    float: right;
-}
+
 
 .logo{
     float: left;
@@ -54,15 +51,12 @@ nav{
     background: #FF4719;
     border-radius: 5px;
     font-size: 125%;
-    font-family: Impact, sans-serif 
+    font-family: Impact, sans-serif;
+    text-align: center;
+    height: 100px;
+    width: cover;
 }
-nav li{
-    display: inline-block;
-    padding: 5px 20px;
-    margin-left: 10px
-    background: #f3f3f3;
-    line-height: normal;
-}
+
 .contant h2{
     background: #FF4719;
     padding: 10px;
@@ -88,7 +82,13 @@ nav li{
     margin-bottom: 5px;
 }
 .drop-menu1{
-
+background: gray;
+opacity: 0;
+transition: opacity 1s;
+-webkit-transition:opacity 1S;
+-moz-transition:opacity 1S;
+-o-transition:opacity 1S;
+-ms-transition:opacity 1S;
 }
 .drop-menu2{
 
@@ -99,22 +99,59 @@ nav li{
 .drop-menu4{
 
 }
-ul.drop-menu1 li{
+.drop-menu1 {
     display: none;
 }
 header li {
 
 }
+img{
+    height: 200px;
+    width: 400px;
+    margin-right: 40px;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
 form{
+
+    float: right;
+}
+nav > ul > li > .drop-menu1:shape-outside:{
+    h
+    display: block;
+}
+aside{
+    display: block;
+    background-color:#00BFFF;
+    float: right;
+    width: 30%;
+    border-radius: 5px;
+}
+article > p{
+    width: 90%;
+}
+article{
+    width: 65%;
+    float: left;
+    background: #F08080;
+    border-radius: 20px;
+}
+h3{
     float: right;
 }
 
-
-
-
-
-
-
-
-
+/*fyrir síma*/
+@media screen and (max-width: 768px) {
+    article {
+        width: 50%;
+    }
+    aside{
+        width: 50%;
+    }
+    #containter{
+        width: 100%;
+    }
+}
 
