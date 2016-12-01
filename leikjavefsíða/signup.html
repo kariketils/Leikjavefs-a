@@ -2,15 +2,47 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-	<title></title>
+<link rel="stylesheet" type="text/css" href="signup.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up Form</title>
 </head>
 <body>
-<a href="" onclick="nyr_gluggi(event)" class="tengill">Home Page</a>
+  <form action="index.html" method="post">
+      
+        <h1>Sign Up</h1>
+        <a href="" onclick="nyr_gluggi(event)" class="tengill">Home Page</a>
 <script type="text/javascript">
 function nyr_gluggi(event) {
 	event.preventDefault();
 	window.location.href = "index.html";
 }
 </script>
+        <fieldset>
+          <legend><span class="number">1</span>Sign Up</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+          <label for="password">Repeat Password:</label>
+          <input type="password" id="password" name="user_password">
+          
+          <label>Terms of Service</label>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">I here by confirm that i am 18 years old or older.</label>
+        </fieldset>
+        
+        
+        
+         
+        </fieldset>
+        <button type="submit">Sign Up</button>
+      </form>
+
+
+
 </body>
 </html>
