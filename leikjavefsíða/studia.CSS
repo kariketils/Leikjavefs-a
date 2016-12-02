@@ -2,8 +2,12 @@ body{
     padding: 0;
     background-color: white;
     background-color: gray;
+<<<<<<< HEAD
     margin-left: 5%;
     margin-right: 5%;
+=======
+         height: 100%;
+>>>>>>> refs/heads/kari
 }
 header{
     border-radius: 20px;
@@ -36,9 +40,21 @@ input[type=text]:focus {
 }
 
 
+<<<<<<< HEAD
 
 .listastíll{
     color: black;
+=======
+}
+.container{
+    border: solid black 4px;
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+}
+.maincontainer{
+    
+>>>>>>> refs/heads/kari
 }
 
 .logo{
@@ -55,6 +71,7 @@ header> div>nav{
     font-family: Impact, sans-serif;
     text-align: center;
     height: 100px;
+<<<<<<< HEAD
     min-width: 300px;
 }
 article > img{
@@ -62,6 +79,12 @@ article > img{
 }
 .mainmenu li{
     float:left;
+=======
+    width: 75%;
+}
+.mainmenu li{
+    float: left;
+>>>>>>> refs/heads/kari
     margin: 0 1em;
 }
 
@@ -168,6 +191,7 @@ footer > nav{
     }
     
 }
+<<<<<<< HEAD
 
 .tengill
 {
@@ -183,3 +207,5 @@ footer > nav{
     padding: 0px 20px;
 }
 
+=======
+>>>>>>> refs/heads/kari
