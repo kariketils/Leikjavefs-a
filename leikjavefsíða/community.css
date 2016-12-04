@@ -24,3 +24,17 @@ body{
 	font-size: 28px;
 	text-align: center;
 }
+/*fyrir síma*/
+@media screen and (max-width: 768px) {
+    article {
+        width: 49%;
+    }
+    aside{
+        width: 49%;
+    }
+
+    header{
+        width: 100%;
+    }
+    
+}
