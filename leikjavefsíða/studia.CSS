@@ -7,10 +7,7 @@ body{
 }
 header{
     border-radius: 20px;
-    border:solid black;
-    margin: 50px;
-    overflow: hidden;
-    max-width: 85%;
+    margin-bottom: 0px;
     align-items: center;
 }
 
@@ -29,6 +26,7 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+    margin-right: 10px;
 }
 
 input[type=text]:focus {
@@ -37,32 +35,43 @@ input[type=text]:focus {
 
 .listastíll{
     color: black;
+    float: right;
+   padding: 0 20px;
 }
 
-
+section{
+    margin-left: 0px;
+}
+section >p{
+    background: purple;
+    float: left;
+    width: 480px;
+    height: 480px;
+    border-radius: 20px;
+    margin: 0;
+}
 .logo{
     float: left;
     margin-top: 10px;
 }
 header>div>nav{
-    float: right;
     line-height: 70px;
     background: #FF4719;
-    margin: 50px;
+    margin-bottom: 50px;
     border-radius: 20px;
     font-size: 125%;
     font-family: Impact, sans-serif;
     text-align: center;
     height: 100px;
-    min-width: 300px;
 }
 article > img{
     align-content: center;
 }
 
-.mainmenu li{
-    float: left;
-    margin: 0 1em;
+.mainmenu {
+    display: flex;
+    float: right;
+    margin-right: 20px;
 }
 
 .contant h2{
@@ -116,6 +125,7 @@ form{
 aside{
     display: block;
     float: right;
+    width: 35%;
     border-radius: 10px;
     background-color:#00BFFF;
 }
@@ -142,25 +152,6 @@ footer > nav{
     margin: 10px;
 }
 
-footer > nav > li > a{
-
-}
-
-/*fyrir síma*/
-@media screen and (min-width: 768px) {
-    article {
-        width: 70%;
-    }
-    aside{
-        width: 30%;
-    }
-
-    header{
-        width: 100%;
-    }
-    
-}
-
 .tengill
 {
     
@@ -168,6 +159,38 @@ footer > nav > li > a{
     padding: 0px 20px;
 }
 
+.tengill2
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+
+/*fyrir síma*/
+
+@media screen and (max-width: 768px) {
+    article {
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1366px){
+    section >div{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+}
+
+<<<<<<< HEAD
 .tengill2
 {
     
@@ -186,6 +209,8 @@ footer > nav > li > a{
     color: black;
     padding: 0px 20px;
 }
-
 =======
 >>>>>>> refs/heads/kari
+
+
+
