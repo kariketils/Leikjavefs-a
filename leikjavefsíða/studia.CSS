@@ -32,7 +32,10 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
+article >div{
+    text-align: center;
 
+}
 .listastíll{
     color: black;
     float: right;
@@ -40,20 +43,15 @@ input[type=text]:focus {
 }
 
 section{
-    margin-left: 0px;
+    border:solid black;
+    width: 49%;
+    border-radius: 20px;
+    float: left;
 }
 section >p{
-    background: purple;
-    float: left;
-    width: 480px;
-    height: 480px;
-    border-radius: 20px;
-    margin: 0;
+margin: 20px;
 }
-.logo{
-    float: left;
-    margin-top: 10px;
-}
+
 header>div>nav{
     line-height: 70px;
     background: #FF4719;
@@ -63,9 +61,6 @@ header>div>nav{
     font-family: Impact, sans-serif;
     text-align: center;
     height: 100px;
-}
-article > img{
-    align-content: center;
 }
 
 .mainmenu {
@@ -110,8 +105,8 @@ article > img{
 p{
     text-align: center;
 }
-header li {
-
+h1{
+    text-align: center;
 }
 *{
     list-style: none;
@@ -121,19 +116,21 @@ form{
 
     float: right;
 }
+aside >p{
+    margin: 20px;
+}
 
 aside{
+    border:solid black;
     display: block;
     float: right;
-    width: 35%;
+    width: 50%;
     border-radius: 10px;
-    background-color:#00BFFF;
+    margin-top: 0px;
 }
-article > p{
-    width: 90%;
-}
+
 article{
-    width: 65%;
+    border:solid black;
     float: left;
     background: #F08080;
     border-radius: 20px;
@@ -141,13 +138,14 @@ article{
 h3{
     float: right;
 }
-footer > nav{
-    display: block;
+footer{
+   display: block;
     width: 100%;
     border-radius: 20px;
     background-color: black;
     color: white;
-    float: right;
+}
+footer > nav{
     text-align: center;
     margin: 10px;
 }
@@ -160,6 +158,18 @@ footer > nav{
 }
 
 .tengill2
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+.tengill4
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+.tengill3
 {
     
     color: black;
@@ -190,27 +200,7 @@ footer > nav{
     }
 }
 
-<<<<<<< HEAD
-.tengill2
-{
-    
-    color: black;
-    padding: 0px 20px;
-}
-.tengill4
-{
-    
-    color: black;
-    padding: 0px 20px;
-}
-.tengill3
-{
-    
-    color: black;
-    padding: 0px 20px;
-}
-=======
->>>>>>> refs/heads/kari
+
 
 
 

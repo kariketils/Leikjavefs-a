@@ -8,21 +8,77 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2),
 border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+header{
+	display: inline-flex;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    align-items: center
+   }
 
+*{
+    list-style: none;
+    text-decoration: none;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 45px;
+    background-position: 0px 0px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-right: 10px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
 #lorem{
 	float: left;
 	width: 200px;
 	height: 200px;
 	margin: 5px;
+	background: url("bakrunnur.jpg") no-repeat;
 }
 
 body{
 	margin: 0 auto;
 	width: 960px;
-	background: url("bakrunnur.jpg") no-repeat;
+	    background: #FF4719;
 	background-size: cover;
 	font-size: 28px;
 	text-align: center;
+}
+.tengill
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+
+.tengill2
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+.tengill4
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+.tengill3
+{
+    
+    color: black;
+    padding: 0px 20px;
 }
 /*fyrir síma*/
 @media screen and (max-width: 768px) {

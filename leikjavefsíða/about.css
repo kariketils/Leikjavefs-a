@@ -1,9 +1,9 @@
 .border{
 	margin-top: 10px;
 	padding: 25px;
-background-color: rgba(250,250,250,0.5);
-border-radius: 5px;
-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2),
+	background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2),
 	inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
 border: 1px solid rgba(0, 0, 0, 0.3);
 }
@@ -14,23 +14,86 @@ border: 1px solid rgba(0, 0, 0, 0.3);
 	height: 200px;
 	margin: 5px;
 }
+*{
+    list-style: none;
+    text-decoration: none;
+}
 
+
+header{
+	display:flex;
+  	background: #FF4719;
+    border-radius: 20px;
+    align-items: center;
+}
+.mainmenu{
+	display: flex;
+    float: right;
+    margin-right: 5px;
+}
+
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('searchicon.png');
+    background-size: 45px;
+    background-position: 0px 0px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-right: 10px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+body>div{
+	color: white;
+	background: url("bakrunnur1.jpg") no-repeat;
+}
 body{
 	margin: 0 auto;
 	width: 960px;
-	background: url("bakrunnur1.jpg") no-repeat;
 	background-size: cover;
+	background-color: gray;
 	font-size: 28px;
 	text-align: center;
 }
+.tengill
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+
+.tengill2
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+.tengill4
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
+.tengill3
+{
+    
+    color: black;
+    padding: 0px 20px;
+}
 /*fyrir síma*/
 @media screen and (max-width: 768px) {
-    article {
-        width: 49%;
-    }
-    aside{
-        width: 49%;
-    }
+	body{
+		width: 100%;
+	}
 
     header{
         width: 100%;

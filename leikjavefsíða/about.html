@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8"/>
@@ -6,9 +6,33 @@
 	<title></title>
 </head>
 <body>
+<header>
+			<div>
+		<nav>
+			<ul class="mainmenu">
+				<a href="" onclick="nyr_gluggi(event)" class="tengill">Home Page</a>
+				<li><a href="" onclick="nyr_gluggi(event)" class="tengill3" id="community.html">Community</a></li>
+				<li><a href="" onclick="nyr_gluggi(event)" class="tengill4" id="about.html">About</a></li>
+				<li><a href="" onclick="nyr_gluggi(event)" class="tengill" id="login.html">Login</a></li>
+				<li><a href="" onclick="nyr_gluggi(event)" class="tengill2" id="signup.html">Sign Up</a></li>
+				<li>
+					<form>
+		 					<input type="text" name="search" placeholder="Search..">
+						</form>
+				</li>
+
+
+			</ul>
+			<script type="text/javascript">
+					function nyr_gluggi (event) {
+					window.open(event.currentTarget.id);}
+				</script>
+			</ul>
+			</nav>
+			</div>
+		</header>
 
 <div class="border">
-<a href="" onclick="nyr_gluggi(event)" class="tengill">Home Page</a>
 <script type="text/javascript">
 function nyr_gluggi(event) {
 	event.preventDefault();
